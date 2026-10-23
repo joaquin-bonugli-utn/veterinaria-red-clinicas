@@ -1,0 +1,14 @@
+# Entorno y cachés
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Archivos generados (se recrean con db/seed.py y reportes/generar_todos.py)
+veterinaria.db
+veterinaria.db-journal
+salida/
+
+# Configuración local
+.claude/settings.local.json
+.vscode/
